@@ -16,7 +16,7 @@ setup(
     entry_points={
         'console_scripts': [
             'fixgres_config = fixgres.config:main',
-            'fixgres_work = fixgres.work:main',
+            'fixgres_read_var_mail = fixgres.mail:main',
         ]
     },
 )
